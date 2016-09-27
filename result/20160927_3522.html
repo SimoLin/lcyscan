@@ -1,0 +1,31 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <title>LcyScan</title>
+                    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css"> 
+                    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"> 
+                    <script src="http://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
+                </head>
+                <style>
+                   
+                    table { 
+                    table-layout: fixed;
+                    word-wrap:break-word;
+                    }
+                </style>
+                <body>
+                    <table class="table table-hover" style="width:100%;hegiht:100%;">
+                        <thead>
+                            <tr>
+                              <th>url</th>
+                              <th>存在漏洞的插件</th>
+                              <th>插件名称</th>
+                              <th>漏洞来源</th>
+                              <th>执行结果</th>
+                              <th>类型</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+    <tr><td>http://www.huayuanqg.com/</td><td>phpinfo_leak.py</td><td>phpinfo信息泄露</td><td>https://phpinfo.me</td><td>目标存在phpinfo泄露,验证url:http://www.huayuanqg.com//test.php</td><td>website</td></tr>
